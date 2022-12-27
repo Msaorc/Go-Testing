@@ -19,6 +19,7 @@ func TestCalculateTaxBatch(t *testing.T) {
 	}
 
 	tableForTest := []calcTax{
+		{0, 0},
 		{500.0, 5.0},
 		{1000.0, 10.0},
 		{1500.0, 10.0},
@@ -29,5 +30,17 @@ func TestCalculateTaxBatch(t *testing.T) {
 		if result != item.expected {
 			t.Errorf("Expected %f but got %f", item.expected, result)
 		}
+	}
+}
+
+func BenchmarkCaluleteTax(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		CalculateTax(500.0)
+	}
+}
+
+func BenchmarkCaluleteTaxMicrosecond(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		CalculateTaxMicrosecond(500.0)
 	}
 }
