@@ -1,6 +1,13 @@
 mode: set
-gotesting/tax/tax.go:3.42,4.16 1 1
-gotesting/tax/tax.go:7.2,7.19 1 1
-gotesting/tax/tax.go:10.2,10.12 1 1
-gotesting/tax/tax.go:4.16,6.3 1 0
-gotesting/tax/tax.go:7.19,9.3 1 1
+gotesting/tax/tax.go:5.42,6.16 1 1
+gotesting/tax/tax.go:9.2,9.36 1 1
+gotesting/tax/tax.go:12.2,12.20 1 1
+gotesting/tax/tax.go:15.2,15.12 1 1
+gotesting/tax/tax.go:6.16,8.3 1 1
+gotesting/tax/tax.go:9.36,11.3 1 1
+gotesting/tax/tax.go:12.20,14.3 1 1
+gotesting/tax/tax.go:18.53,20.16 2 0
+gotesting/tax/tax.go:23.2,23.19 1 0
+gotesting/tax/tax.go:26.2,26.12 1 0
+gotesting/tax/tax.go:20.16,22.3 1 0
+gotesting/tax/tax.go:23.19,25.3 1 0

@@ -12,3 +12,6 @@
  * **For Exec Benchmark with specific tests**: go test -bench=. -run=^#
  * **For Exec Benchmark with timeout**: go test -bench=. -run=^# -benchtime=-3s
  * **For more information**: go help test
+ * **To Exec Fuzzing with tests**: go test -fuzz=.
+ * **For Exec Fuzzing with specific tests**: go test -fuzz=. -run=^#
+ * **For Exec Fuzzing with timeout**: go test -bench=. -run=^# -fuzztime=5s
